@@ -14,10 +14,7 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
-		messages.add("I make test");
-		messages.add("test is successful");
-		messages.add("we add one more line");
-		messages.add("OMG! It finally works");
+		messages.add("It's second project");
 		model.addAttribute("messages", messages);
 		return "index";
 	}
