@@ -16,6 +16,7 @@ public class HelloController {
 		messages.add("Hello!");
 		messages.add("I make test");
 		messages.add("test is successful");
+		messages.add("we add one more line");
 		model.addAttribute("messages", messages);
 		return "index";
 	}
